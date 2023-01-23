@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.start,ul{
+    display:flex;
+    list-style: none;
+    justify-content:center;}
+    
+    ul li,#last{
+        background-color:#CCAFAF;
+        width:140px;
+        padding:35px;
+        margin:10px;
+        border-radius:5%;
+        font-weight:bolder;
+        text-transform:capitalize;
+        opacity:0.8;
+    }
+    
+    .large1{
+    background-color:#E49494;
+    width:300px;
+    height:120px;
+    }
+    
+    
+    section{
+        margin:80px;
+        position:relative;
+    }
+    
+    #last{
+        position:absolute;
+        left:27%;
+    }
+
+    .last{
+        background-color:#fff;
+      }
